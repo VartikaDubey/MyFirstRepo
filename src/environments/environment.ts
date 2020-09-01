@@ -5,8 +5,7 @@
 export const environment = {
   production: false,
   developerName: 'Vartika Dubey',
-  apiUrl: 'https://api.spaceXdata.com/v3',
-  serviceUrl: ''
+  apiUrl: 'https://api.spaceXdata.com/v3',  
 };
 
 /*
