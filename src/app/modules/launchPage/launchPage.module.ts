@@ -1,8 +1,8 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import {SharedModule} from 'src/app/shared/shared.module';
-import { LaunchListComponent } from './launchlist/launchlist.component';
-import {AddSelectedClassDirective} from './directives/addSelectedClass.directive';
+import { LaunchListComponent } from 'src/app/modules/launchPage/launchList';
+import {AddSelectedClassDirective} from 'src/app/modules/launchPage/directives/addSelectedClass.directive';
 import * as Barrel from './launchListComponents/index';
 import { Routes, RouterModule } from '@angular/router';
 
