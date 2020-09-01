@@ -2,8 +2,8 @@ import { Component, ViewChild, ElementRef, Input, Output, EventEmitter, ViewEnca
 
 @Component({
   selector: 'app-filterlist',
-  templateUrl: './filterlist.component.html',
-  styleUrls: ['./filterlist.component.scss'],
+  templateUrl: './filterList.component.html',
+  styleUrls: ['./filterList.component.scss'],
   encapsulation: ViewEncapsulation.None
 })
 export class FilterListComponent {
