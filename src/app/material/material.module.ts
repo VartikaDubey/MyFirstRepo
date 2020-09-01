@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import {MatCardModule} from '@angular/material/card';
 import {MatButtonModule} from '@angular/material/button';
-import {MatButtonToggleModule} from '@angular/material/button-toggle'
+import {MatButtonToggleModule} from '@angular/material/button-toggle';
 
 const MaterialComponents = [
     MatCardModule,
