@@ -5,9 +5,7 @@ import {AngularMaterialModule} from '../material/material.module';
 import {LaunchDataService} from '.';
 
 @NgModule({
-  declarations: [  
-    
-  ],
+  declarations: [],
   providers: [],
   imports: [
     CommonModule,
@@ -16,10 +14,10 @@ import {LaunchDataService} from '.';
   ],
   exports: [
     NgbModule,
-    AngularMaterialModule  
+    AngularMaterialModule
   ]
 })
-export class SharedModule { 
+export class SharedModule {
   static forRoot(): ModuleWithProviders {
     return {
       ngModule: SharedModule,

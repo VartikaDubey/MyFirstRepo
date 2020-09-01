@@ -17,7 +17,7 @@ import { MasterFooterComponent } from 'src/app/core';
     SharedModule,
     AppRoutingModule,
   ],
-  providers: [  ],  
+  providers: [  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -3,8 +3,8 @@ import { Routes, RouterModule } from '@angular/router';
 
 const routes: Routes = [
   {
-    path: 'launchlist',    
-    loadChildren: './modules/launchPage/launchPage.module#LaunchListModule'    
+    path: 'launchlist',
+    loadChildren: './modules/launchPage/launchPage.module#LaunchListModule'
   },
   {
     path: '',
