@@ -1,0 +1,83 @@
+.matCard
+{
+  background-color: white;  
+  width: 250px;
+  margin: 5px;  
+  line-height: 25px;
+  font-size: 13px;
+}
+
+.cardTitle
+{
+  font-size:12px;
+  color: #414c90;
+  font-weight: 800;
+}
+
+.infotitle
+{
+font-size: 12px;
+font-weight: 600;
+margin-bottom: 0px;
+color: #000102;
+}
+
+.info
+{
+  font-size: 12px;
+  font-weight: lighter;
+  margin-bottom: 0px;
+  margin-left: 4px;
+  color: #43518d;
+
+}
+
+.info > li {
+  margin-left: 35px;
+    }
+
+
+//TABLET
+
+@media only screen and (min-width: 700px) and (max-width: 1024px) {
+  .matCard
+  {
+    background-color: white;  
+    width: 95%;
+    margin: 5%;
+    line-height: 20px;
+    font-size: 13px;
+  }
+ 
+.image
+{
+  height: 50px !important;
+  padding: 12px !important;
+}
+}
+
+
+//PHONE
+@media only screen and (max-width: 700px) {
+  .matCard
+  {
+    background-color: white;  
+    width: 100%;    
+    line-height: 20px;
+    font-size: 13px;
+  }
+ 
+.image
+{
+  height: 50px !important;
+  padding: 12px !important;
+}
+}
+
+.image
+{
+  height: 150px !important;
+  padding: 12px !important;
+}
+
+

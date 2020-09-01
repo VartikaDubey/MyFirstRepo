@@ -1,0 +1,16 @@
+<mat-card class="matCard">   
+   <picture mat-card-image class='image'>
+     <source  media="(min-width: 850px)" src="{{missin.imageURL}}" alt="Photo of space objects">
+      <source media="(min-width: 700px)" src="{{missin.imageURLSmall}}" alt="Photo of space objects">
+        <img src="{{mission.imageURL}}" alt="Photo of space objects"> 
+   </picture>
+  <!-- <img class='image' mat-card-image src="../../../assets/Placeholder.png" alt="Photo of space objects">  -->
+  <mat-card-title class='cardTitle'>{{mission.missionName + '#' + mission.flightNumber}}</mat-card-title>
+  <mat-card-subtitle class='infotitle'>Mission Ids:</mat-card-subtitle>
+  <ul class='info' *ngFor="let Id of mission.missionIds">
+    <li>{{Id ? Id: 'N/A'}}</li>
+  </ul>
+  <div><span class='infotitle'>Launch Year:</span><span class='info'> {{mission.launchYear  === null ? 'N/A' : mission.launchYear}}</span></div>
+  <div><span class='infotitle'>Successful Launch:</span><span class='info'> {{mission.launchSuccess === null ? 'N/A' : mission.launchSuccess}}</span></div>
+  <div><span class='infotitle'>Successful Landing:</span><span class='info'> {{ mission.landSuccess === null ? 'N/A' : mission.landSuccess}}</span></div>
+</mat-card>

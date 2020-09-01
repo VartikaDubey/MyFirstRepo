@@ -1,0 +1,52 @@
+.button{
+    margin: 3px;
+    height: 30px;
+    width:30px;
+    padding: 3px;
+    background-color: #c9dea3;
+    text-align: center;
+    align-content: center;
+    color: black;
+  }
+  button:focus, button:active:focus, button.active:focus {
+    outline: none !important;
+    outline-style: none !important;
+    }
+  .selected{
+    margin: 3px;
+    height: 30px;
+    width:30px;
+    padding: 3px;
+    background-color: #89b637;
+    text-align: center;
+    align-content: center;
+    color: black;
+    border: 0px;
+  }
+
+  .subtitle{
+    font-size: 13px;
+    margin-top: 15px !important;
+    margin-bottom: 2px !important;
+    color: #414c90 !important;
+  }
+
+  .cardTitle
+  {
+    font-size: 16px !important;
+    color: #000102;
+    font-weight: bold;
+  }
+
+  .button.mat-button
+  {
+    margin: 8px;
+    font-size: 11px;
+    border:0px ;
+  }
+
+  .linebreak
+  {
+    margin-top: 5px !important;
+    margin-bottom: 5px !important;
+  }

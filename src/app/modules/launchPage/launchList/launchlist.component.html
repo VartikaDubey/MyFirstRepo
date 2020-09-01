@@ -1,0 +1,15 @@
+<div class='headingparent'>
+  <h1 class='masterHeading'>SpaceX Launch Programs</h1>
+</div>
+<div class="flex-container">
+  <div class="flex-container-1">
+    <app-filterlist [selectedYears]="selectedYears" [selectedSuccessLaunch]="selectedSuccessLaunch" [selectedSuccessLand]="selectedSuccessLand"
+    (toggleYearEvent)="toggleYearSelection($event)" (toggleLaunchSuccessEvent)="toggleSuccessLaunchSelection($event)" (toggleLandSuccessEvent)="toggleSuccessLandSelection($event)"
+    ></app-filterlist>
+  </div>
+  <div class="flex-container-2">
+    <div class="matCardDiv" *ngFor="let mission of displayArray">
+      <app-mission-result [mission]="mission"></app-mission-result>      
+    </div>
+  </div>
+</div>
