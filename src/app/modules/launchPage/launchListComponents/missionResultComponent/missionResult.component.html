@@ -1,9 +1,5 @@
 <mat-card class="matCard">   
-   <picture mat-card-image class='image'>
-     <source  media="(min-width: 850px)" src="{{mission.imageURL}}" alt="Photo of space objects">
-      <source media="(min-width: 700px)" src="{{mission.imageURLSmall}}" alt="Photo of space objects">
-        <img src="{{mission.imageURL}}" alt="Photo of space objects"> 
-   </picture>
+    <img src="{{mission.imageURL}}" alt="Photo of space objects" class='image'>
   <!-- <img class='image' mat-card-image src="../../../assets/Placeholder.png" alt="Photo of space objects">  -->
   <mat-card-title class='cardTitle'>{{mission.missionName + '#' + mission.flightNumber}}</mat-card-title>
   <mat-card-subtitle class='infotitle'>Mission Ids:</mat-card-subtitle>
