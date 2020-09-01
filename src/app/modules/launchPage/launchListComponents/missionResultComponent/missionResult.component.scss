@@ -1,7 +1,8 @@
 .matCard
 {
-  background-color: white;  
-  width: 250px;
+  background-color: white;
+  height: 400px;  
+  width: 200px;
   margin: 5px;  
   line-height: 25px;
   font-size: 13px;
@@ -42,16 +43,16 @@ color: #000102;
 @media only screen and (min-width: 700px) and (max-width: 1024px) {
   .matCard
   {
-    background-color: white;  
-    width: 95%;
-    margin: 5%;
+    background-color: white; 
+    height: 390px; 
+    width: 230px;
+    padding: 30px;
     line-height: 20px;
     font-size: 13px;
   }
  
 .image
 {
-  background-color: #f1f1f3;
   height: 50px !important;
   padding: 12px !important;
 }
@@ -62,15 +63,15 @@ color: #000102;
 @media only screen and (max-width: 700px) {
   .matCard
   {
-    background-color: white;  
-    width: 100%;    
+    background-color: white;
+    height: 370px;  
+    width: 200px;    
     line-height: 20px;
     font-size: 13px;
   }
  
 .image
 {
-  background-color: #f1f1f3;
   height: 50px !important;
   padding: 12px !important;
 }
@@ -78,9 +79,8 @@ color: #000102;
 
 .image
 {
-  background-color: #f1f1f3;
-  height: 170px !important;
-  padding: 16px !important;
+  height: 10px !important;
+  padding: 12px !important;
 }
 
 
