@@ -93,7 +93,7 @@ export class LaunchListComponent implements OnInit {
 
     const selectedYears = new Set(_self.selectedYears);
     selectedYears.delete(null);
-    const launchYear = _self.selectedYears.size > 0? (Array.from(selectedYears)).join(',') : null;
+    const launchYear = _self.selectedYears.size > 0 ? (Array.from(selectedYears)).join(',') : null;
 
     const selectedSuccessLaunch = new Set(_self.selectedSuccessLaunch);
     selectedSuccessLaunch.delete(null);
