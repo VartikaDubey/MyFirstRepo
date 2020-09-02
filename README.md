@@ -24,7 +24,7 @@
 
 
 ## Future Updates:
-1. Unit testing.
+1. **Unit testing**.
 
 ## LightHouse Scores:
 
