@@ -28,4 +28,4 @@
 
 ## LightHouse Scores:
 
-<img src="./LightHouseScore.png">
+<img src="https://github.com/VartikaDubey/MyFirstRepo/blob/master/LightHouseScore.PNG">
