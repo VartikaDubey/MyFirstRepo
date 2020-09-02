@@ -28,4 +28,4 @@
 
 ## LightHouse Scores:
 
-<img src="LightHouseScore.png">
+<img src="./LightHouseScore.png">
